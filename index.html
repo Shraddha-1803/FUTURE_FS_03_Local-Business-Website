@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MomoMia Café | Bareilly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1>MomoMia</h1>
+
+  <div class="nav-right">
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeToggle">🌙</button>
+
+    <!-- HAMBURGER -->
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero fade-in">
+  <h2>Who are we?</h2>
+  <p>
+    Momomia is an Indian food chain specializing in momos, a dumpling popular in North-east India, Nepal, and Tibet. The chain was founded in 2018 by Debasish Majumder, a Banker turned Entrepreneur with a passion for food and a dream to create his name in the world.
+  </p>
+  <button onclick="scrollToSection('menu')">Explore Menu</button>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="fade-in">
+  <h2>Our Menu</h2>
+
+  <!-- MOMOS -->
+  <h3 class="category">🥟 Momos</h3>
+  <div class="menu-grid">
+
+    <div class="card">
+      <img src="images/veg steam momo.jpg">
+      <div class="card-content">
+        <h3>Veg Steamed Momos</h3>
+        <p>₹80</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/veg kurkure momo.jpg">
+      <div class="card-content">
+        <h3>Veg Kurkure Momos</h3>
+        <p>₹140</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/veg tandoori momo.jpg">
+      <div class="card-content">
+        <h3>Veg Tandoori Momos</h3>
+        <p>₹149</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/barbeque momo.jpg">
+      <div class="card-content">
+        <h3>Veg Barbeque Momos</h3>
+        <p>₹159</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/fried momo.jpg">
+      <div class="card-content">
+        <h3>Veg Fried Momos</h3>
+        <p>₹80</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/paneer kurkure momo.jpg">
+      <div class="card-content">
+        <h3>Paneer Kurkure Momos</h3>
+        <p>₹160</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DRINKS -->
+  <h3 class="category">🥤 Drinks</h3>
+  <div class="menu-grid">
+
+    <div class="card">
+      <img src="images/cold coffee2.jpg">
+      <div class="card-content">
+        <h3>Cold Coffee</h3>
+        <p>₹79</p>
+        <small>A mixture of coffee and milk, served with ice cubes.</small>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- NOODLES -->
+  <h3 class="category">🍜 Noodles</h3>
+  <div class="menu-grid">
+
+    <div class="card">
+      <img src="images/veg noodle.jpg">
+      <div class="card-content">
+        <h3>Veg Noodles</h3>
+        <p>₹90</p>
+        <small>Loaded with cabbage, carrot, onion & capsicum.</small>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/paneer noodle.jpg">
+      <div class="card-content">
+        <h3>Paneer Noodles</h3>
+        <p>₹130</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/hakka noodle.jpg">
+      <div class="card-content">
+        <h3>Veg Hakka Noodles</h3>
+        <p>₹90</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/paneer hakka noodle.jpg">
+      <div class="card-content">
+        <h3>Paneer Hakka Noodles</h3>
+        <p>₹130</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BURGERS -->
+  <h3 class="category">🍔 Burgers</h3>
+  <div class="menu-grid">
+
+    <div class="card">
+      <img src="images/veg burger.jpg">
+      <div class="card-content">
+        <h3>Veg Burger</h3>
+        <p>₹99</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/cheese burger.jpg">
+      <div class="card-content">
+        <h3>Cheese Burger</h3>
+        <p>₹120</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/paneer burger.jpg">
+      <div class="card-content">
+        <h3>Paneer Burger</h3>
+        <p>₹120</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/paneer cheese burger.jpg">
+      <div class="card-content">
+        <h3>Paneer Cheese Burger</h3>
+        <p>₹140</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="fade-in">
+  <h2>About MomoMia</h2>
+  <p>
+    MomoMia is one of Bareilly’s favorite hangout spots, known for its
+    delicious momos, fast food, and cozy café vibes. Whether you're
+    meeting friends or grabbing a quick bite, we serve fresh, tasty food
+    at affordable prices. </p>
+
+    <p>
+    We have identified a massive market for Momos lovers- we are a specialist in our product. </p>
+
+    <p>
+    Although the segmentation is Youth, we have been witnessing a huge change in the taste demands of the remaining group of elders who like our product as well
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="fade-in">
+  <h2>Visit Us</h2>
+  <p>📍 35 U 4, opposite Vindyawasini Bhawan, near Puri Photostate, Rampur Garden, Bareilly, Uttar Pradesh 243001</p>
+  <p>📞 098086 27540</p>
+
+  <button onclick="openMap()">View on Map</button>
+</section>
+
+<footer>
+  <p>© 2026 MomoMia Bareilly</p>
+</footer>
+
+<!-- ✅ WHATSAPP BUTTON -->
+<a 
+  href="https://wa.me/919808627540?text=Hi%20MomoMia!%20I%20want%20to%20order%20food."
+  class="whatsapp-btn"
+  target="_blank"
+>
+  💬 Order Now
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
