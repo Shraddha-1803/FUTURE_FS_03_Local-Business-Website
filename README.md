@@ -7,7 +7,7 @@ This project is designed to help small businesses establish an online presence a
 
 ## 🚀 Live Demo
 
-👉 https://your-username.github.io/momomia-website/
+👉 https://shraddha-1803.github.io/Local-Business-Website-FUTURE_FS_03/
 
 ---
 
@@ -110,6 +110,7 @@ This website helps the café:
 ## 🙌 Author
 
 **Shraddha Agarwal**
+
 Frontend Developer
 
 ---
