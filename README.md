@@ -109,7 +109,7 @@ This website helps the café:
 
 ## 🙌 Author
 
-**Your Name**
+**Shraddha Agarwal**
 Frontend Developer
 
 ---
