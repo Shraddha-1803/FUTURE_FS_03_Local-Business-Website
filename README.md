@@ -7,7 +7,7 @@ This project is designed to help small businesses establish an online presence a
 
 ## 🚀 Live Demo
 
-👉 https://shraddha-1803.github.io/Local-Business-Website-FUTURE_FS_03/
+👉 https://shraddha-1803.github.io/Local-Business-Website/
 
 ---
 
